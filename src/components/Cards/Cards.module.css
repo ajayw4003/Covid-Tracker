@@ -1,0 +1,22 @@
+.container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 30px;
+}
+.row{
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    background: #d6efc7;
+    height: 25vh;
+    width: 30%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.55);
+}
+.row:hover{
+    transform:scale(1.05);
+}
