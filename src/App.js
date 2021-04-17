@@ -23,7 +23,6 @@ export default class App extends Component {
       <div className="container">
         <h1>Covid Tracker</h1>
         <Cards data = {data}/>
-        {/* <CountrySelect /> */}
     </div>
     )
   }
