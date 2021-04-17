@@ -21,9 +21,9 @@ export default class App extends Component {
     const { data } = this.state
     return (
       <div className="container">
+        <h1>Covid Tracker</h1>
         <Cards data = {data}/>
-        {/* <ChartCovid /> */}
-        <CountrySelect />
+        {/* <CountrySelect /> */}
     </div>
     )
   }
